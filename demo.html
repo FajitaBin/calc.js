@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calc.js demo</title>
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+
+
+    <div class="calC-amortization">
+    				<div class="form"></div>
+
+    				<div class="inside">
+    					<p><label>Results:</label></p>
+    					<div class="results"></div>
+    				</div>
+
+    				<div class="clear"></div>
+    			</div>
+
+
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+
+	$(".calC-amortization").calC({
+		mode: "amortization"
+	});
+
+});
+  </script>
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="calc.js"></script>
+
+  </body>
+</html>
